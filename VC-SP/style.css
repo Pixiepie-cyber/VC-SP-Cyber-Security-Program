@@ -1,0 +1,114 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+article ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#protection-tips ul {
+    list-style-type: none;
+}
+
+#protection-tips ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#resources ul {
+    list-style-type: none;
+}
+
+#resources ul li {
+    margin: 10px 0;
+}
+
+#resources ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#resources ul li a:hover {
+    color: #f39c12;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
